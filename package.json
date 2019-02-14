@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-notch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin detecting phone with screen cut outs",
   "cordova": {
     "id": "cordova-plugin-notch",

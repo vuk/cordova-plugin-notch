@@ -3,7 +3,7 @@
     <name>Notch Cordova Plugin</name>
     <description>Plugin detecting phone with screen cut outs</description>
     <js-module name="NotchPlugin" src="www/NotchPlugin.js">
-        <clobbers target="cordova.plugins.NotchPlugin" />
+        <clobbers target="NotchPlugin" />
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">

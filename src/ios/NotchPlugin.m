@@ -17,7 +17,7 @@
     
     bool hasNotch;
 
-    hasNotch = true;
+    hasNotch = false;
 
     if (@available(iOS 11.0, *)) {
         UIWindow *window = UIApplication.sharedApplication.keyWindow;

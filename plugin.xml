@@ -23,3 +23,32 @@
         <source-file src="src/ios/NotchPlugin.m" />
     </platform>
 </plugin>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-cutout" version="1.0.1">
+    <name>Cutout</name>
+    <description>Cordova Plugin for detecing screen cutouts also know as notch</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,device</keywords>
+    <js-module src="www/cutout.js" name="cutout">
+        <clobbers target="cutout" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="Cutout">
+                <param name="android-package" value="com.vukstankovic.Cutout" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml" />
+        <source-file src="src/android/CDVCutout.java" target-dir="src/cordova-plugin-notch/NotchPlugin" />
+    </platform>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Cutout">
+                <param name="ios-package" value="CDVCutout"/>
+            </feature>
+        </config-file>
+        <source-file src="src/ios/CDVCutout.m" />
+    </platform>
+</plugin>

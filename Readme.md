@@ -1,6 +1,10 @@
 #cordova-plugin-cutout
 
-Detect if current device has cutout or notch
+Detect if the device has cutout or notch
+
+## Installation
+
+`cordova plugin add cordova-plugin-cutout`
 
 ## Methods 
 

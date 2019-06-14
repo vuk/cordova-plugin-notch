@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-cutout",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Plugin detecting phone with screen cut outs",
   "cordova": {
     "id": "cordova-plugin-cutout",

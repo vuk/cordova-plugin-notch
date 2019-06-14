@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-cutout" version="1.0.8">
+        id="cordova-plugin-cutout" version="1.0.9">
     <name>Cutout</name>
     <description>Cordova Plugin for detecing screen cutouts also know as notch</description>
     <license>Apache 2.0</license>

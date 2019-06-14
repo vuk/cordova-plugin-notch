@@ -2,8 +2,16 @@
 
 Detect if current device has cutout or notch
 
-```
-    <Promise<boolean>> cordova.plugins.Notch.has();
+## Methods 
+
+### has()
+
+``` javascript
+    /** 
+    * @name has
+    * @returns Promise<boolean>
+    */
+    cutout.has();
 ```
 
 ## Support 

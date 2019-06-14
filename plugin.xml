@@ -9,13 +9,12 @@
         <clobbers target="cutout" />
     </js-module>
     <platform name="android">
-        <config-file parent="/*" target="res/xml/config.xml">
+        <config-file parent="/*" target="config.xml">
             <feature name="Cutout">
-                <param name="android-package" value="com.vukstankovic.CDVCutout" />
+                <param name="android-package" value="com.vukstankovic.cutout.CDVCutout" />
             </feature>
         </config-file>
-        <config-file parent="/*" target="AndroidManifest.xml" />
-        <source-file src="src/android/CDVCutout.java" target-dir="src/com/vukstankovic" />
+        <source-file src="src/android/CDVCutout.java" target-dir="src/com/vukstankovic/cutout" />
     </platform>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">

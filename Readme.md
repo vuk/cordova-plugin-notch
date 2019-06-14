@@ -7,11 +7,11 @@ Detect if current device has cutout or notch
 ### has()
 
 ``` javascript
-    /** 
-    * @name has
-    * @returns Promise<boolean>
-    */
-    cutout.has();
+/** 
+* @name has
+* @returns Promise<boolean>
+*/
+cutout.has();
 ```
 
 ## Support 

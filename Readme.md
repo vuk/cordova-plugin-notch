@@ -1,6 +1,6 @@
 #cordova-plugin-cutout
 
-Detect if the device has cutout or notch
+Detect if the device screen has cutout or notch
 
 ## Installation
 
@@ -22,7 +22,7 @@ cutout.has();
 
 ### Android 
 
-Currently devices with Android P or newer are supported. For non supported devices, return value will be `false` even if they may have cutout.
+Currently devices with Android P or newer are supported. For non supported devices, return value will be `false` even if the screen may have cutout.
 
 ### iOS 
 

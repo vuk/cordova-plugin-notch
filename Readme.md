@@ -12,6 +12,7 @@ Detect if the device screen has cutout or notch
 
 ``` javascript
 /** 
+* Cutout plugin is added to global window object
 * @name has
 * @returns Promise<boolean>
 */
